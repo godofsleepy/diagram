@@ -1,9 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T16:20:26.807Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.5" etag="SY6WmNtIF8dlHKCfib-v" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T16:26:42.417Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="JZPYRF8NDI8qq-5RrdPm" version="21.7.5" type="github">
   <diagram name="Page-1" id="WL2jBlgAj-Xfjlgo9BCT">
-    <mxGraphModel>
+    <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SpvRQxd2-rjbcXfiuzuW-1" value="API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="250" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpvRQxd2-rjbcXfiuzuW-2" value="Local" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="410" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpvRQxd2-rjbcXfiuzuW-3" value="Firebase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpvRQxd2-rjbcXfiuzuW-4" value="Geolacator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpvRQxd2-rjbcXfiuzuW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SpvRQxd2-rjbcXfiuzuW-5" target="SpvRQxd2-rjbcXfiuzuW-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="370" />
+              <mxPoint x="160" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpvRQxd2-rjbcXfiuzuW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SpvRQxd2-rjbcXfiuzuW-5" target="SpvRQxd2-rjbcXfiuzuW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpvRQxd2-rjbcXfiuzuW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SpvRQxd2-rjbcXfiuzuW-5" target="SpvRQxd2-rjbcXfiuzuW-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="370" />
+              <mxPoint x="470" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpvRQxd2-rjbcXfiuzuW-5" value="Auth Repository" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="230" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SpvRQxd2-rjbcXfiuzuW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SpvRQxd2-rjbcXfiuzuW-6" target="SpvRQxd2-rjbcXfiuzuW-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="370" />
+              <mxPoint x="310" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpvRQxd2-rjbcXfiuzuW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SpvRQxd2-rjbcXfiuzuW-6" target="SpvRQxd2-rjbcXfiuzuW-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="370" />
+              <mxPoint x="620" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SpvRQxd2-rjbcXfiuzuW-6" value="Job Repository" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="420" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
